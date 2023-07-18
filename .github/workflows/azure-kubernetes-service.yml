@@ -38,7 +38,7 @@ jobs:
         id: set-context
         uses: azure/aks-set-context@v3
         with:
-          resource-group: 'rg-tender-lioness' 
+          resource-group: 'rg-free-monster' 
           cluster-name: 'cluster-guiding-cattle'
       - name: Setup kubectl
         id: install-kubectl
