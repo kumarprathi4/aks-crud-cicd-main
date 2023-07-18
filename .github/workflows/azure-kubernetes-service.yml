@@ -38,8 +38,8 @@ jobs:
         id: set-context
         uses: azure/aks-set-context@v3
         with:
-          resource-group: 'MC_rg-careful-haddock_cluster-leading-boar_uksouth' 
-          cluster-name: 'cluster-guiding-cattle'
+          resource-group: 'rg-careful-haddock' 
+          cluster-name: 'cluster-leading-boar'
       - name: Setup kubectl
         id: install-kubectl
         uses: azure/setup-kubectl@v3
